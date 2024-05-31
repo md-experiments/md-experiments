@@ -17,6 +17,7 @@ Welcome to my GitHub profile, I am passionate about creating innovative products
 <p align="left">
   <img src="https://github.com/md-experiments/elastic_transformers/blob/master/assets/architecture.png" width=350 alt=" Example of text being annotated in a data annotator">
 </p> 
+
 - [Anna](https://github.com/md-experiments/anna) a simple data annotation tool
 <p align="left">
   <img src="https://github.com/md-experiments/anna/blob/master/assets/alex.gif" width=350 alt=" Example of text being annotated in a data annotator">
