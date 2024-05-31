@@ -31,6 +31,6 @@ Welcome to my GitHub profile, I am passionate about creating innovative products
 🛠️ __My Tools__ ... 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,pytorch,docker,aws,flask,js" />
+    <img src="https://skillicons.dev/icons?i=py,pytorch,docker,aws,gcp,flask,js" />
   </a>
 </p>
