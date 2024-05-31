@@ -27,3 +27,10 @@ Welcome to my GitHub profile, I am passionate about creating innovative products
 <p align="left">
   <img style="border:5px double black;" src="https://github.com/md-experiments/password_vault/blob/master/assets/pass_value_preview.gif" width=350  alt=" Image of a user entering a password and storing to vault">
 </p>
+
+🛠️ __My Tools__ ... 
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,pytorch,docker,aws,flask,js" />
+  </a>
+</p>
