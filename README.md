@@ -3,7 +3,7 @@
 Welcome to my GitHub profile, I am passionate about creating innovative products at the intersection of knowledge management, big data and analytics.
 
 🔭 __I’m currently working on__:  
-- [no-chat](https://sea-turtle-app-klpab.ondigitalocean.app/display-company/MSFT/94c3b0af980cd58aff77c4afe6b28488) Helps summarize and brainstorm about massive texts by relying less on chat and more on visual tools  !
+- [no-chat](https://sea-turtle-app-klpab.ondigitalocean.app/display-combined/MSFT/94c3b0af980cd58aff77c4afe6b28488) Helps summarize and brainstorm about massive texts by relying less on chat and more on visual tools  !
 <p align="left">
   <img style="border:5px double black;" src="https://github.com/md-experiments/md-experiments/assets/59069934/82f772be-2cc7-4911-b7e0-c1baa716d95b" width=550 alt=" Knowledge graph showing Microsoft and connected AI and Innovation technologies">
 </p>
