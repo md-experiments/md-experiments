@@ -8,6 +8,8 @@ Welcome to my GitHub profile, I am passionate about creating innovative products
   <img style="border:5px double black;" src="https://github.com/md-experiments/md-experiments/assets/59069934/82f772be-2cc7-4911-b7e0-c1baa716d95b" width=550 alt=" Knowledge graph showing Microsoft and connected AI and Innovation technologies">
 </p>
 
+- [simple-chat](https://github.com/md-experiments/simple-chat) A lightweight private chatGPT UI clone that can use different LLMs, store multiple chats, store history locally and, of course, "dark mode"
+
 - [AI Storyteller](https://github.com/md-experiments/md-similacra) A generative AI tool that can write, voice and create a video from a short description
 
   
