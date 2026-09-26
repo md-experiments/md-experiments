@@ -29,41 +29,21 @@
 <br/><b><a href="https://probability-five.vercel.app">Probability Lab</a></b> · flip coins, roll dice, walk random walks and watch the exact distribution converge with the simulated one. Mystery mode hides the process and makes you infer it.
 </td>
 <td width="50%" valign="top">
-<a href="https://md-logic.vercel.app"><img src="assets/md-logic.png" alt="MD Logic: a grid of nine logic, memory and language mini games"/></a>
-<br/><b><a href="https://md-logic.vercel.app">MD Logic</a></b> · nine quick mini games for logic, memory and language. One game at a time, train your mind.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://rd-splat-wars.vercel.app"><img src="assets/splat-wars.png" alt="Splat Wars: arena select screen of a 3D paint shooter"/></a>
-<br/><b><a href="https://rd-splat-wars.vercel.app">Splat Wars</a></b> · a 3D paint shooter. Stick figures battle three AI bots to cover the most ground in their colour. Keyboard on desktop, touch on iPad.
-</td>
-<td width="50%" valign="top">
-<a href="https://xd-parking-jam.vercel.app"><img src="assets/parking-jam.png" alt="Zenith Parking Jam: a sliding-block puzzle board full of colourful cars"/></a>
-<br/><b><a href="https://xd-parking-jam.vercel.app">Zenith Parking Jam</a></b> · slide the cars around until the blocked one can escape. A sliding-block puzzle with a chunky, tactile board.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 <a href="https://xd-adventure.vercel.app"><img src="assets/xd-adventure.jpg" alt="Choose Your Adventure: a gallery of illustrated branching stories"/></a>
 <br/><b><a href="https://xd-adventure.vercel.app">Choose Your Own Adventure</a></b> · LLM-generated branching stories with illustrated scenes, exportable as printable cards for playing at the table.
 </td>
-<td width="50%" valign="top">
-<a href="https://md-world-domination.vercel.app"><img src="assets/world-domination.png" alt="World Domination: new game screen of a geopolitical strategy game"/></a>
-<br/><b><a href="https://md-world-domination.vercel.app">World Domination</a></b> · a geopolitical strategy game with economy, research, drones, information warfare and supply-chain logistics.
-</td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<a href="https://rd-town.vercel.app"><img src="assets/sunny-town.png" alt="Sunny Town: title screen of a town-building game"/></a>
-<br/><b><a href="https://rd-town.vercel.app">Sunny Town</a></b> · a cheerful town-building game. Place houses, trees and shops, and watch your dream town grow.
-</td>
 <td width="50%" valign="top">
 <a href="https://chroma-play-dusky.vercel.app"><img src="assets/chroma-play.png" alt="ChromaPlay: a swarm of coloured particles on a dark canvas"/></a>
 <br/><b><a href="https://chroma-play-dusky.vercel.app">ChromaPlay</a></b> · an interactive colour playground. Swarm, orbit, vortex, magnet, prism: pick a mode and push the particles around.
 </td>
+<td width="50%" valign="top">
+</td>
 </tr>
 </table>
+
+More games: **[MD Logic](https://md-logic.vercel.app)** (nine mini games for logic, memory and language) · **[Splat Wars](https://rd-splat-wars.vercel.app)** (3D paint shooter) · **[Zenith Parking Jam](https://xd-parking-jam.vercel.app)** (sliding-block puzzle) · **[World Domination](https://md-world-domination.vercel.app)** (geopolitical strategy) · **[Sunny Town](https://rd-town.vercel.app)** (town builder)
 
 ## 🧰 Tools & trackers
 
