@@ -1,9 +1,8 @@
 <h1 align="center">Hi, I'm Misho 👋</h1>
 
 <p align="center">
-  I build products at the intersection of <b>knowledge management, AI and analytics</b>.<br/>
-  Most of what lives here is a working app rather than a notebook: pipelines that keep running,
-  UIs people can actually use, and a few tools I built because I needed them.
+  I build small, opinionated apps at the intersection of <b>knowledge, AI and analytics</b>: games, learning tools,
+  simulators and trackers. Most of what's below is live, so click a screenshot and try it.
 </p>
 
 <p align="center">
@@ -11,51 +10,137 @@
   <a href="https://github.com/md-experiments?tab=repositories"><img src="https://img.shields.io/badge/GitHub-md--experiments-181717?logo=github&logoColor=white" alt="GitHub repositories"/></a>
 </p>
 
----
+## 🎮 Playgrounds & games
 
-## 🚀 What I'm building in 2026
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://history-maps-azure.vercel.app"><img src="assets/shifting-ground.png" alt="Shifting Ground: an animated historical atlas of maritime Southeast Asia in 1400"/></a>
+<br/><b><a href="https://history-maps-azure.vercel.app">Shifting Ground</a></b> · an interactive historical atlas. Pick a year, press play, watch kingdoms change hands. Seven atlases, from Rome to Mesoamerica.
+</td>
+<td width="50%" valign="top">
+<a href="https://mythology-nine.vercel.app"><img src="assets/atlas-of-shared-gods.png" alt="Atlas of Shared Gods: a wheel of twelve archetypes showing the Greek pantheon"/></a>
+<br/><b><a href="https://mythology-nine.vercel.app">Atlas of Shared Gods</a></b> · five pantheons on one wheel. Switch tradition and only the culture changes; the structure stays put. Hand-drawn SVG throughout.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://probability-five.vercel.app"><img src="assets/probability-lab.png" alt="Probability Lab: coin-flip experiment with exact and simulated distributions"/></a>
+<br/><b><a href="https://probability-five.vercel.app">Probability Lab</a></b> · flip coins, roll dice, walk random walks and watch the exact distribution converge with the simulated one. Mystery mode hides the process and makes you infer it.
+</td>
+<td width="50%" valign="top">
+<a href="https://md-logic.vercel.app"><img src="assets/md-logic.png" alt="MD Logic: a grid of nine logic, memory and language mini games"/></a>
+<br/><b><a href="https://md-logic.vercel.app">MD Logic</a></b> · nine quick mini games for logic, memory and language. One game at a time, train your mind.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://rd-splat-wars.vercel.app"><img src="assets/splat-wars.png" alt="Splat Wars: arena select screen of a 3D paint shooter"/></a>
+<br/><b><a href="https://rd-splat-wars.vercel.app">Splat Wars</a></b> · a 3D paint shooter. Stick figures battle three AI bots to cover the most ground in their colour. Keyboard on desktop, touch on iPad.
+</td>
+<td width="50%" valign="top">
+<a href="https://xd-parking-jam.vercel.app"><img src="assets/parking-jam.png" alt="Zenith Parking Jam: a sliding-block puzzle board full of colourful cars"/></a>
+<br/><b><a href="https://xd-parking-jam.vercel.app">Zenith Parking Jam</a></b> · slide the cars around until the blocked one can escape. A sliding-block puzzle with a chunky, tactile board.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://xd-adventure.vercel.app"><img src="assets/xd-adventure.jpg" alt="Choose Your Adventure: a gallery of illustrated branching stories"/></a>
+<br/><b><a href="https://xd-adventure.vercel.app">Choose Your Own Adventure</a></b> · LLM-generated branching stories with illustrated scenes, exportable as printable cards for playing at the table.
+</td>
+<td width="50%" valign="top">
+<a href="https://md-world-domination.vercel.app"><img src="assets/world-domination.png" alt="World Domination: new game screen of a geopolitical strategy game"/></a>
+<br/><b><a href="https://md-world-domination.vercel.app">World Domination</a></b> · a geopolitical strategy game with economy, research, drones, information warfare and supply-chain logistics.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://rd-town.vercel.app"><img src="assets/sunny-town.png" alt="Sunny Town: title screen of a town-building game"/></a>
+<br/><b><a href="https://rd-town.vercel.app">Sunny Town</a></b> · a cheerful town-building game. Place houses, trees and shops, and watch your dream town grow.
+</td>
+<td width="50%" valign="top">
+<a href="https://chroma-play-dusky.vercel.app"><img src="assets/chroma-play.png" alt="ChromaPlay: a swarm of coloured particles on a dark canvas"/></a>
+<br/><b><a href="https://chroma-play-dusky.vercel.app">ChromaPlay</a></b> · an interactive colour playground. Swarm, orbit, vortex, magnet, prism: pick a mode and push the particles around.
+</td>
+</tr>
+</table>
 
-| | Project | What it does | Built with |
-|:-:|---|---|---|
-| 🛸 | **[UFO Files Tracker](https://github.com/md-experiments/ufo-files)** | Tracks the U.S. government's declassified UFO / UAP releases: discovers new tranches, downloads the files, OCRs scanned pages, classifies every record into a fixed taxonomy (topic, shape, sensor, official assessment…) and mines the collection for connections such as waves of reports and recurring details, all browsable in a visual site. | Python · FastAPI · PyMuPDF + Tesseract · Claude / OpenAI structured outputs · Railway |
-| 📈 | **[Great Trader Arguments](https://github.com/md-experiments/great-trader-arguments)** | What would Buffett, Graham, Druckenmiller, Lynch or Chanos say about this stock today? A catalog of the quantifiable triggers ~40 of history's best-documented investors looked for, written as machine-evaluable rules, plus a valuation and decision framework that scores each investor's "lens" on a security, values the business their way and turns the result into entry, sizing and exit rules. Builds live snapshots from FMP and Alpha Vantage. | Python · FMP + Alpha Vantage APIs · Railway |
-| 📖 | **[Lexis](https://github.com/md-experiments/e-reader)** · [live app](https://e-reader-olive.vercel.app) | A Kindle-style web e-reader. Upload PDFs or EPUBs, read them as clean paginated text, highlight passages, navigate by table of contents and pick up where you left off on any device. | Next.js · TypeScript · Tailwind · Firebase · Vercel |
-| 🗺️ | **[Shifting Ground](https://github.com/md-experiments/history-maps)** · [live app](https://history-maps-azure.vercel.app) | An interactive historical atlas. Pick a year, press play and watch territory change hands, then click any kingdom to read who ruled it and what became of them. Seven atlases ship with it, from Rome and the Mediterranean to Mesoamerica and the Southern Cone, and each one is pure data, so adding a region is an authoring exercise rather than a coding one. | React · TypeScript · Vite · Vercel |
-| 💡 | **[Idea Validator](https://github.com/md-experiments/idea-validation)** · [live app](https://idea-validation-omega.vercel.app) | Validate a business idea before building it: the app runs AI-powered customer interviews against your pitch and scores the idea so you can see where it holds up and where it falls apart. | Next.js · Firebase · Claude · Vercel |
-| 🏛️ | **[Atlas of Shared Gods](https://github.com/md-experiments/mythology)** · [live app](https://mythology-nine.vercel.app) | A comparative atlas of five pantheons (Greek, Roman, Hindu, Norse, Egyptian). Twelve archetypes sit at fixed positions on a wheel, so switching tradition moves nothing and only the culture changes, and a "braid" view lays shared myths side by side beat by beat. Everything is hand-drawn SVG with no runtime dependencies. | TypeScript · Vite · SVG · Vercel |
-| 🔐 | **[Password Vault](https://github.com/md-experiments/password_vault)** | A small local server that keeps your passwords encrypted on disk and shows them for only a short window when you ask. | Python |
-| 🌀 | **[Endless Canvas](https://github.com/md-experiments/endless-canvas)** · [live app](https://endless-canvas-lyart.vercel.app) | An infinite canvas for dropping, clustering and connecting ideas. Double-tap to add a note, drag notes into clusters, connect and nest them five levels deep, tag and filter, and switch themes per project. Works on desktop, iPad and phone. | Next.js · Firebase · Tailwind · Vercel |
-| 🧪 | **[Genna 4](https://github.com/md-experiments/genna4)** | GENerative ANNotation: run several LLMs (OpenAI, Anthropic, OpenRouter) as annotators over your dataset, spot where they disagree, and grade them side by side with thumbs up / down. The fourth iteration of a tool I've been evolving since 2023. | Vue 3 · FastAPI · Firestore · Railway |
-| 🀄 | **[Happy Hanzy](https://github.com/md-experiments/happy-hanzy)** | Learn Chinese characters from the ground up: a library of the 214 radicals, interactive diagrams showing how characters are composed, spaced-repetition flashcards, quizzes and a progress dashboard. | Next.js · shadcn/ui · Firebase · Vercel |
+## 🧰 Tools & trackers
 
-<p align="center">
-  <img style="border:5px double black;" src="https://github.com/md-experiments/password_vault/blob/master/assets/pass_value_preview.gif" width="420" alt="A user entering a password and storing it in the vault"/>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/md-experiments/ufo-files"><img src="assets/ufo-files.png" alt="UFO Files: overview page with release counts and the latest declassified records"/></a>
+<br/><b><a href="https://github.com/md-experiments/ufo-files">UFO Files Tracker</a></b> · follows the U.S. government's declassified UAP releases: downloads, OCRs and classifies every record, then mines the collection for waves and recurring details.
+</td>
+<td width="50%" valign="top">
+<img src="assets/great-trader-arguments.png" alt="Great Trader Arguments: terminal output arguing a stock from the viewpoint of famous investors"/>
+<br/><b>Great Trader Arguments</b> · what would Buffett, Graham, Slater or Fisher say about this stock today? Forty investors' rules as machine-evaluable triggers, argued in their own voice.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://www.diy-investor.net"><img src="assets/diy-investor.png" alt="DIY Investor: landing page with a long-run chart of US stocks against Treasuries"/></a>
+<br/><b><a href="https://www.diy-investor.net">DIY Investor</a></b> · evidence-based personal finance tools. Every calculator and simulator is paired with the research behind it, so you can check the output rather than trust it.
+</td>
+<td width="50%" valign="top">
+<a href="https://fin-pages.vercel.app"><img src="assets/finpages.png" alt="FinPages: a market pulse dashboard of ranked earnings events across S&P 500 companies"/></a>
+<br/><b><a href="https://fin-pages.vercel.app">FinPages</a></b> · earnings filings, ranked and explained. A pipeline reads SEC 10-K / 10-Q filings and transcripts and turns them into scored events you can browse market-wide.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://balance-wheat-one.vercel.app"><img src="assets/balance.png" alt="Balance: landing page reading 'Worry is a process, not a list of problems'"/></a>
+<br/><b><a href="https://balance-wheat-one.vercel.app">Balance</a></b> · an evidence-led, private-by-design self-help programme for chronic worry and modern anxiety. No account, nothing leaves your device.
+</td>
+<td width="50%" valign="top">
+<a href="https://preso-prep.vercel.app"><img src="assets/preso-prep.png" alt="Preso Prep: landing page with pace and filler-word gauges from a practice run"/></a>
+<br/><b><a href="https://preso-prep.vercel.app">Preso Prep</a></b> · upload a deck, practise each slide out loud, and get feedback on pace, filler words, vocal variety and content coverage.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://viz-blog.vercel.app"><img src="assets/vizblog.png" alt="VizBlog: landing page reading 'Turn any article into visual slides'"/></a>
+<br/><b><a href="https://viz-blog.vercel.app">VizBlog</a></b> · paste an article and get a visual slide deck: diagrams, charts and summaries, section by section.
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
+</table>
+
+## 🔐 More apps (sign in to use)
+
+- **[Lexis](https://e-reader-olive.vercel.app)** · a Kindle-style web e-reader for PDFs and EPUBs with highlights, table of contents and cross-device progress. [Source](https://github.com/md-experiments/e-reader).
+- **[Endless Canvas](https://endless-canvas-lyart.vercel.app)** · an infinite canvas for dropping, clustering and connecting ideas. Works on desktop, iPad and phone.
+- **[Idea Validator](https://idea-validation-omega.vercel.app)** · validate a business idea with AI-powered customer interviews and scoring before you build it.
+- **[The Agora](https://chat-the-greats.vercel.app)** · chat with historically grounded personas of great thinkers, with passages from their own works cited inline.
+- **[Memory](https://memory-kappa-taupe.vercel.app)** · spaced retrieval built on the techniques with evidence behind them: free recall, interleaving, a memory palace. Anki tests you; this trains you.
+- **[Six Pillars](https://self-esteem-eight.vercel.app)** · a daily practice for self-esteem built on Nathaniel Branden's six pillars, with an emotion wheel and drag-to-pick exercises.
+- **[Vibe Plus](https://vibe-plus-lime.vercel.app)** · a document editor that streams AI writing feedback as you type, across 26 kinds of analysis.
+- **[Town Sim](https://md-town-sim.vercel.app)** · a pre-modern town run by LLM-driven citizens who work, fall in love, age and die. You just watch, and occasionally nudge.
+- **[KD Menu](https://kd-menu.vercel.app)** · a family meal planner with prep steps, tags and search. **[Life Saver](https://life-saver-eight.vercel.app)** · a family life organiser.
+- **[Genna 4](https://github.com/md-experiments/genna4)** · GENerative ANNotation: run several LLMs as annotators, spot where they disagree, grade them side by side. **[Happy Hanzy](https://github.com/md-experiments/happy-hanzy)** · learn Chinese characters from their radicals.
 
 ## 🌟 Earlier projects
 
-- **[Picture Text](https://github.com/md-experiments/picture_text)** ⭐ turns a pile of documents into an interactive treemap using sentence embeddings and hierarchical clustering, so you can see what a corpus is about before reading it.
-- **[Elastic Transformers](https://github.com/md-experiments/elastic_transformers)** is an easy-to-deploy semantic search library built on Elasticsearch and sentence-transformers.
-- **[simple-chat](https://github.com/md-experiments/simple-chat)** is a lightweight private ChatGPT-style UI that can talk to different LLMs, keep multiple chats and store history locally. Dark mode included, naturally.
-- **[AI Storyteller](https://github.com/md-experiments/md-similacra)** writes, voices and renders a short video from a one-line description.
-- **[Anna](https://github.com/md-experiments/anna)** is a simple data annotation tool, and **[Genna 3](https://github.com/md-experiments/genna3)** is its LLM-centric successor, now superseded by Genna 4 above.
-
 <p align="left">
-  <img style="border:5px double black;" src="https://github.com/md-experiments/picture_text/blob/master/assets/cover.gif" width="350" alt="Treemap exploration of text data"/>
-  &nbsp;&nbsp;
-  <img src="https://github.com/md-experiments/anna/blob/master/assets/alex.gif" width="350" alt="Text being annotated in Anna"/>
+  <a href="https://github.com/md-experiments/picture_text"><img style="border:5px double black;" src="https://github.com/md-experiments/picture_text/blob/master/assets/cover.gif" width="330" alt="Picture Text: treemap exploration of text data"/></a>
+  &nbsp;
+  <a href="https://github.com/md-experiments/anna"><img src="https://github.com/md-experiments/anna/blob/master/assets/alex.gif" width="330" alt="Anna: text being annotated"/></a>
+  &nbsp;
+  <a href="https://github.com/md-experiments/password_vault"><img style="border:5px double black;" src="https://github.com/md-experiments/password_vault/blob/master/assets/pass_value_preview.gif" width="330" alt="Password Vault: storing a password"/></a>
 </p>
+
+- **[Picture Text](https://github.com/md-experiments/picture_text)** ⭐ turns a pile of documents into an interactive treemap using sentence embeddings and hierarchical clustering.
+- **[Elastic Transformers](https://github.com/md-experiments/elastic_transformers)** is an easy-to-deploy semantic search library on Elasticsearch and sentence-transformers.
+- **[Anna](https://github.com/md-experiments/anna)** is a simple data annotation tool; **[Genna 3](https://github.com/md-experiments/genna3)** was its LLM-centric successor.
+- **[Password Vault](https://github.com/md-experiments/password_vault)** keeps passwords encrypted on disk and shows them only for a short window.
+- **[simple-chat](https://github.com/md-experiments/simple-chat)** is a lightweight private ChatGPT-style UI; **[AI Storyteller](https://github.com/md-experiments/md-similacra)** writes, voices and renders a short video from one line.
 
 ## 🛠️ Tools I reach for
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,fastapi,pytorch,ts,nextjs,react,vue,tailwind,firebase,elasticsearch,postgres,docker,vercel,railway,aws,gcp" alt="Python, FastAPI, PyTorch, TypeScript, Next.js, React, Vue, Tailwind, Firebase, Elasticsearch, Postgres, Docker, Vercel, Railway, AWS, GCP"/>
+    <img src="https://skillicons.dev/icons?i=py,fastapi,pytorch,ts,nextjs,react,vue,threejs,tailwind,firebase,elasticsearch,postgres,docker,vercel,railway,aws,gcp" alt="Python, FastAPI, PyTorch, TypeScript, Next.js, React, Vue, Three.js, Tailwind, Firebase, Elasticsearch, Postgres, Docker, Vercel, Railway, AWS, GCP"/>
   </a>
-</p>
-
----
-
-<p align="center">
-  💬 Happy to chat about LLM tooling, text analytics or any of the projects above. Find me on <a href="https://www.linkedin.com/in/mihail-dungarov-cfa">LinkedIn</a>.
 </p>
