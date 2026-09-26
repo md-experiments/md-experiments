@@ -1,11 +1,11 @@
-<h1 align="center">Hi, I'm Misho 👋</h1>
+<h1 align="left">Hi, I'm Misho 👋</h1>
 
-<p align="center">
+<p align="left">
   I build small, opinionated apps at the intersection of <b>knowledge, AI and analytics</b>: games, learning tools,
   simulators and trackers. Most of what's below is live, so click a screenshot and try it.
 </p>
 
-<p align="center">
+<p align="left">
   <a href="https://www.linkedin.com/in/mihail-dungarov-cfa"><img src="https://img.shields.io/badge/LinkedIn-Misho%20Dungarov-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://github.com/md-experiments?tab=repositories"><img src="https://img.shields.io/badge/GitHub-md--experiments-181717?logo=github&logoColor=white" alt="GitHub repositories"/></a>
 </p>
@@ -43,7 +43,6 @@
 </tr>
 </table>
 
-More games: **[MD Logic](https://md-logic.vercel.app)** (nine mini games for logic, memory and language) · **[Splat Wars](https://rd-splat-wars.vercel.app)** (3D paint shooter) · **[Zenith Parking Jam](https://xd-parking-jam.vercel.app)** (sliding-block puzzle) · **[World Domination](https://md-world-domination.vercel.app)** (geopolitical strategy) · **[Sunny Town](https://rd-town.vercel.app)** (town builder)
 
 ## 🧰 Tools & trackers
 
