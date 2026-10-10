@@ -83,6 +83,18 @@
 <br/><b><a href="https://viz-blog.vercel.app">VizBlog</a></b> · paste an article and get a visual slide deck: diagrams, charts and summaries, section by section.
 </td>
 <td width="50%" valign="top">
+<a href="https://news-collection-production.up.railway.app"><img src="assets/news-signal.png" alt="News Signal Dashboard: article volume, categories and sentiment across 8,000 headlines from the last 14 days"/></a>
+<br/><b><a href="https://news-collection-production.up.railway.app">News Signal Dashboard</a></b> · 200+ business, politics and finance feeds collected every six hours, run through entity, topic and sentiment analysis, deduplicated into stories and served as one dashboard.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://country-standard-index.vercel.app"><img src="assets/country-standard-index.png" alt="Country Standard Index: 2024 quality-of-life ranking with per-component scores for each country"/></a>
+<br/><b><a href="https://country-standard-index.vercel.app">Country Standard Index</a></b> · a transparent quality-of-life index for 182 countries since 2000. Every score drills down to the official series behind it, and the component weights are yours to change. <a href="https://github.com/md-experiments/country-standard-index">Source</a>.
+</td>
+<td width="50%" valign="top">
+<a href="https://meme-cad-production.up.railway.app"><img src="assets/memecad.png" alt="MemeCAD: landing page reading '2D CAD in your browser. Draw the plan, count the quantities.'"/></a>
+<br/><b><a href="https://meme-cad-production.up.railway.app">MemeCAD</a></b> · 2D CAD in the browser. Opens and saves DWG/DXF, draws with the command-line shortcuts you already know, and counts and prices the sockets, lights and doors you place. Sign in to draw.
 </td>
 </tr>
 </table>
